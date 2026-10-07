@@ -93,7 +93,7 @@ enum PatchProjectLibrary {
                 } else if summary.isPasswordProtected {
                     // Only the app's renamed bundled resources use the internal
                     // key; imported packages remain locked for the user.
-                    guard (url.deletingPathExtension().lastPathComponent.hasPrefix("OGIOS File (") || url.deletingPathExtension().lastPathComponent.hasPrefix("NSMOD File (")) else {
+                    guard url.deletingPathExtension().lastPathComponent.hasPrefix("OGIOS File (") else {
                         decoded = nil
                         continue
                     }
