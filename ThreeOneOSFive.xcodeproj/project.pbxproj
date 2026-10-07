@@ -172,22 +172,22 @@
 		3105A122 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3105A123 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3105B123 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		3105P101 /* NSMOD File (6).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (6).3105"; sourceTree = "<group>"; };
-	3105P102 /* NSMOD File (7).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (7).3105"; sourceTree = "<group>"; };
-		3105P109 /* NSMOD File (9).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (9).3105"; sourceTree = "<group>"; };
-		3105P108 /* NSMOD File (10).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (10).3105"; sourceTree = "<group>"; };
-		3105P110 /* NSMOD File (1).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (1).3105"; sourceTree = "<group>"; };
-					3105P111 /* NSMOD File (3).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (3).3105"; sourceTree = "<group>"; };
-			3105P113 /* NSMOD File (5).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (5).3105"; sourceTree = "<group>"; };
-			3105P114 /* NSMOD File (12).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (12).3105"; sourceTree = "<group>"; };
-			3105P115 /* NSMOD File (8).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (8).3105"; sourceTree = "<group>"; };
-			3105P116 /* NSMOD File (11).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (11).3105"; sourceTree = "<group>"; };
-			3105P117 /* NSMOD File (4).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (4).3105"; sourceTree = "<group>"; };
-			3105P118 /* NSMOD File (2).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (2).3105"; sourceTree = "<group>"; };
+		3105P101 /* NSMOD File (6).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (6).3105"; sourceTree = "<group>"; };
+	3105P102 /* NSMOD File (7).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (7).3105"; sourceTree = "<group>"; };
+		3105P109 /* NSMOD File (9).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (9).3105"; sourceTree = "<group>"; };
+		3105P108 /* NSMOD File (10).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (10).3105"; sourceTree = "<group>"; };
+		3105P110 /* NSMOD File (1).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (1).3105"; sourceTree = "<group>"; };
+					3105P111 /* NSMOD File (3).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (3).3105"; sourceTree = "<group>"; };
+			3105P113 /* NSMOD File (5).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (5).3105"; sourceTree = "<group>"; };
+			3105P114 /* NSMOD File (12).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (12).3105"; sourceTree = "<group>"; };
+			3105P115 /* NSMOD File (8).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (8).3105"; sourceTree = "<group>"; };
+			3105P116 /* NSMOD File (11).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (11).3105"; sourceTree = "<group>"; };
+			3105P117 /* NSMOD File (4).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (4).3105"; sourceTree = "<group>"; };
+			3105P118 /* NSMOD File (2).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (2).3105"; sourceTree = "<group>"; };
 
-		3105P119 /* NSMOD File (13).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (13).3105"; sourceTree = "<group>"; };
+		3105P119 /* NSMOD File (13).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (13).3105"; sourceTree = "<group>"; };
 
-		3105P120 /* NSMOD File (14).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patches/NSMOD File (14).3105"; sourceTree = "<group>"; };
+		3105P120 /* NSMOD File (14).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/NSMOD File (14).3105"; sourceTree = "<group>"; };
 
 /* End PBXFileReference section */
 
