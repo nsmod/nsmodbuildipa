@@ -1,5 +1,5 @@
 import SwiftUI
-import UIKit
+import UIKitard ur
 import AVFoundation
 
 struct ContentView: View {
@@ -37,7 +37,7 @@ struct ContentView: View {
                 .padding(.bottom, 28)
             }
         }
-        .preferredColorScheme(.dark)
+                .preferredColorScheme(.dark)
         .sheet(isPresented: $showSettings) {
             SettingsView()
         }
@@ -47,14 +47,22 @@ struct ContentView: View {
         .sheet(item: $patchStore.passwordRequest, onDismiss: patchStore.cancelUnlock) { _ in
             PatchUnlockPrompt(store: patchStore)
         }
-        .onAppear { syncPatchStates() }
+        .onAppear {
+            syncPatchStates()
+            let names = patchStore.items.map { $0.packageURL.lastPathComponent }.joined(separator: " | ")
+            let lockedCount = patchStore.items.filter { $0.isLocked }.count
+            patchMessage = "LOADED \(patchStore.items.count) | LOCKED \(lockedCount) | \(names)"
+            print("[OGIOS-DEBUG] onAppear — items=\(patchStore.items.count) locked=\(lockedCount)")
+            for item in patchStore.items {
+                print("[OGIOS-DEBUG]   \(item.packageURL.lastPathComponent) locked=\(item.isLocked) hasProject=\(item.project != nil)")
+            }
+        }
         .onChange(of: scenePhase) { phase in
             guard phase == .active, !patchOperationBusy else { return }
             syncPatchStates()
-            patchMessage = "READY — SELECT A PATCH"
+            // KHÔNG ghi đè patchMessage nữa — để debug message hiện
         }
     }
-
     private var brandHeader: some View {
         HStack(spacing: 14) {
             VStack(alignment: .leading, spacing: 3) {
